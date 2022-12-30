@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 1%;
+    
+}
+
+#dataInfo{
+    padding: 0.5em 2em;
+    background-color: black;
+}
+
+a{
+    font-size: 1.5em;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+

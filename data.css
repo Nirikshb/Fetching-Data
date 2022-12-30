@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+h2{
+    margin-left: 2%;
+}
+
+.one , .two , .three, .four, .five, .six{
+    /* border: 1px solid black; */
+    /* margin-top: 1%; */
+    width: 15em;
+}
+
+.contain, .contain2, .contain3{
+    border-radius: 2px;
+    margin: 1%;
+    padding-bottom: 2%;
+    display: flex;
+    gap: 81.5em;
+    margin-left: 2%;
+    line-height: 10px;
+}
+
+.two ,.four , .six{
+    margin-right: 15%;
+}
+
+#map{
+    /* position: relative; */
+    padding-bottom: 15px;   
+    /* width: 93vw;
+    height: 50vh; */
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.half{
+    line-height: 4px;
+    display: flex;
+    gap: 35em;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+    
+i{
+    margin-top: 0.7%;
+}
+
+.filter{ 
+      margin-left: 2%;
+      margin-top: 1%;
+      width: 93vw;
+      height: 3vh;
+      font-size: 1em;
+      vertical-align: middle;
+      font-family: "Font Awesome 6 Free";
+      font-weight: 500;
+      content: "f002";
+      /* how to get it in middle */
+      border: 1px solid black;
+}
+
+.filter input{
+    border: none;
+}
+
+.filter input:focus{
+    outline: none;
+}
+
+#infoOne{
+    /* border: 1px solid black; */
+    margin-left: 2%;
+    width: 93vw;
+}
+
